@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['Alligator', 'Bumps And Sags', 'Depression', 'Edge cracking', 'Longitudinal And Transverse', 'Patching', 'Potholes', 'Rutting', 'Shoving', 'Surface Deterioration']
+
+roboflow:
+  workspace: jakkaphanb
+  project: crack-01-acvy8
+  version: 29
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jakkaphanb/crack-01-acvy8/dataset/29
